@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "571900004737",
+    "project_id": "recpettest",
+    "storage_bucket": "recpettest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:571900004737:android:e97c59e717913df5680080",
+        "android_client_info": {
+          "package_name": "com.example.recpet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "571900004737-39l79he56aomp7htuc0u5jlnmr8c4fr8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMcW7yeA-7usS6NN0B4h2ZO-9xuqkjJ5g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "571900004737-39l79he56aomp7htuc0u5jlnmr8c4fr8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
