@@ -9,4 +9,7 @@
     <string name="msgError">Usuário incorreto</string>
     <string name="button">Entrar</string>
     <string name="bemVindo">Seja muito bem-vindo ao RecPet:</string>
+    <string name="cadastro">Cadastre-se</string>
+
+
 </resources>
