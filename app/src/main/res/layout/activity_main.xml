@@ -34,11 +34,12 @@
         android:id="@+id/edSenha"
         android:layout_width="258dp"
         android:layout_height="77dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="36dp"
         android:ems="10"
-        android:inputType="numberPassword"
         android:hint="@string/password"
+        android:inputType="textPassword|numberPassword"
         app:layout_constraintEnd_toEndOf="@+id/edUsuario"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/edUsuario"
         app:layout_constraintTop_toBottomOf="@+id/edUsuario" />
 
@@ -61,4 +62,16 @@
         app:layout_constraintHorizontal_bias="0.512"
         app:layout_constraintStart_toStartOf="@+id/edSenha"
         app:layout_constraintTop_toBottomOf="@+id/checkBox" />
+
+    <Button
+        android:id="@+id/btCadastrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cadastrar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btLogin"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="@+id/btLogin"
+        app:layout_constraintTop_toBottomOf="@+id/btLogin"
+        app:layout_constraintVertical_bias="0.202" />
 </androidx.constraintlayout.widget.ConstraintLayout>

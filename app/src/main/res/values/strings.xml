@@ -4,15 +4,19 @@
     <string name="password">Password</string>
     <string name="remember">Remember</string>
     <string name="login">Login</string>
+    <string name="cadastrar">Cadastre-se</string>
     <string name="textoExemplo">Register your pet here and help the city to rescue animals that are on the streets. </string>
     <string name="msgError">User error</string>
     <string name="button">Enter</string>
     <string name="bemVindo">Welcome to RecPet:</string>
     <string name="cadastro">Cadastre-se</string>
     <string name="nameUser">Name</string>
-    <string name="cadastro">Cadastre-se</string>
-    <string name="cadastro">Cadastre-se</string>
-    <string name="cadastro">Cadastre-se</string>
-    <string name="cadastro">Cadastre-se</string>
+    <string name="dataNascimento">Data de nascimento</string>
+    <string name="pessoalID">CPF</string>
+    <string name="endereço">Endereço Completo</string>
+    <string name="celular">Celular</string>
+    <string name="email">Email</string>
+    <string name="senha">Password</string>
+    <string name="btCadastro">Cadastrar</string>
 
 </resources>

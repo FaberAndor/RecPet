@@ -7,7 +7,7 @@
     tools:context=".Cadastro">
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/edCadastro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
@@ -17,47 +17,47 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/edPersonName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Nome"
+        android:hint="@string/nameUser"
         android:inputType="textPersonName"
         tools:layout_editor_absoluteX="64dp"
         tools:layout_editor_absoluteY="97dp" />
 
     <EditText
-        android:id="@+id/editTextDate"
+        android:id="@+id/edDate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="data de nacimento"
+        android:hint="@string/dataNascimento"
         android:inputType="date"
         tools:layout_editor_absoluteX="60dp"
         tools:layout_editor_absoluteY="163dp" />
 
     <EditText
-        android:id="@+id/editTextNumber"
+        android:id="@+id/edID"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="CPF"
+        android:hint="@string/pessoalID"
         android:inputType="number"
         tools:layout_editor_absoluteX="58dp"
         tools:layout_editor_absoluteY="218dp" />
 
     <EditText
-        android:id="@+id/editTextTextPostalAddress"
+        android:id="@+id/edEndereco"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="endereço completo"
+        android:hint="@string/endereço"
         android:inputType="textPostalAddress"
         tools:layout_editor_absoluteX="64dp"
         tools:layout_editor_absoluteY="281dp" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/edEMAIL"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -67,23 +67,31 @@
         tools:layout_editor_absoluteY="426dp" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/edPasswordCad"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="senha"
-        android:inputType="textPassword"
+        android:inputType="textPassword|numberPassword"
         tools:layout_editor_absoluteX="64dp"
         tools:layout_editor_absoluteY="494dp" />
 
     <EditText
-        android:id="@+id/editTextPhone2"
+        android:id="@+id/edCEL"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Celular"
+        android:hint="@string/celular"
         android:inputType="phone"
         tools:layout_editor_absoluteX="64dp"
         tools:layout_editor_absoluteY="343dp" />
+
+    <Button
+        android:id="@+id/btCadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="595dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -25,11 +25,7 @@ class MainActivity : AppCompatActivity() {
                 inten.putExtra("nome", texto)
                 startActivity(inten)
 
-            //teste
-            val database = Firebase.database
-            val myRef = database.getReference("message")
 
-            myRef.setValue("Hello, World!")
            // }
            // else{
             //    Toast.makeText(this, R.string.msgError, Toast.LENGTH_SHORT).show()
