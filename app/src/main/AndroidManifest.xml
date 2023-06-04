@@ -12,7 +12,10 @@
         android:theme="@style/Theme.EmpregaEu4"
         tools:targetApi="31">
         <activity
-            android:name=".Cadastro"
+            android:name=".ListaPessoasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CadastroActivity"
             android:exported="false" />
         <activity
             android:name=".Tela3Activity"

@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "571900004737",
+    "firebase_url": "https://recpettest-default-rtdb.firebaseio.com",
     "project_id": "recpettest",
     "storage_bucket": "recpettest.appspot.com"
   },
