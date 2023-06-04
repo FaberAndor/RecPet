@@ -6,7 +6,6 @@ import android.widget.Toast
 import com.example.recpet.databinding.ActivityCadastroBinding
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
-import layout.UsuarioModelo
 
 class CadastroActivity : AppCompatActivity() {
 
@@ -20,13 +19,13 @@ class CadastroActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         var edPersonName = binding.edPersonName
-        var edDate = binding.edDate
+        var edDate = binding.edDataNascimento
         var edCPF = binding.edCPF
         var edEndereco = binding.edEndereco
-        var edCEL = binding.edCEL
-        var edEMAIL = binding.edEMAIL
+        var edCEL = binding.edCelular
+        var edEMAIL = binding.edEmail
         var edPasswordCad = binding.edPasswordCad
-        var btCadastro = binding.btCadastro
+        var btCadastro = binding.button
 
         dbRef = FirebaseDatabase.getInstance().getReference("Usuário")
 
