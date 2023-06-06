@@ -17,13 +17,20 @@ class MainActivity : AppCompatActivity() {
 
         val edNome = binding.edUsuario
         val btLogin = binding.btLogin
+        val btCadastrar = binding.btCadastrar
+
+        btCadastrar?.setOnClickListener {
+            val intent = Intent( this, CadastroActivity::class.java )
+            startActivity(intent)
+        }
 
         btLogin.setOnClickListener {
-            if (edNome.text.toString() == "Admin") {
-                val inten = Intent(this, CadastroActivity::class.java)
+
+//            if (edNome.text.toString() == "Admin") {
+//                val inten = Intent(this, CadastroActivity::class.java)
                 //val inten = Intent(this, Tela2Activity::class.java)
                 //val texto = edNome.text.toString()
-                startActivity(inten)
+                //startActivity(inten)
                 //testando escrita com banco de dados
                 val database = Firebase.database
                 val myRef = database.getReference("teste")
